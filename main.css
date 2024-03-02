@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0);
+
+
+
+}
+
+.navbar i {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 700;
+
+}
+
+.menu .list a {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 700;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.nav-logo {
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    letter-spacing: 3px;
+}
+
+.navbar .list {
+    list-style: none;
+    display: flex;
+    gap: 95px;
+    padding: 30px;
+    margin-right: 100px;
+    letter-spacing: 1px;
+
+
+}
+
+#toggle,
+.navbar label {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .menu {
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    .list {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .navbar label {
+        display: inline-flex;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    #toggle:checked~.menu {
+        max-height: 100%;
+    }
+}
+
+
+
+/* index mainpage */
+
+.theNewTextShoes{
+    font-size: 70px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.bntinMainpage{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 50px;
+    margin-left: 50px;
+    letter-spacing: 3px;
+
+}
+
+.imgnike1inMain{
+    width: 100%;
+    height: 100%;
+    transform: rotate(-30deg);
+    
+    
+}
+
+.vl{
+    width: 200px;
+    color: black;
+    border: 1px solid;
+    margin-left: 50px;
+    margin-top: 80px;
+    font-weight: 900;
+}
+
+.headInmainpage1{
+    height: 100%;
+}
+
+/* sec2 in main page */
+
+.headInmainpage2 {
+    height: 100%;
+    padding-top: 90px;
+}
+
+.imgnike1inMain2{
+    height: 100%;
+    width: 570px;
+}
+
+.vl2{
+    height: 280px;
+        color: black;
+        border-left: 2px solid;
+        margin-right: 10px;
+
+        font-weight: 900;
+}
+
+.descinmainpage2{
+    text-align: justify;
+    
+}
+
+
+/* main page 3  */
+
+.imgnike1inMain3{
+    height: 100%;
+        width: 50%;
+        margin-top: -180px;
+}
+
+.vlwidth{
+    width: 180px;
+        color: black;
+        border: 1px solid;
+        margin-left: 750px;
+        margin-top: -310px;
+
+        font-weight: 700;
+        z-index: 2;
+}
+
+.vlwidthtext{
+    
+        color: black;
+        
+        margin-left: 940px;
+        margin-top: -16px;
+    
+        font-weight: 700;
+        z-index: 2;
+}
+
+/* height */
+.vl3 {
+    height: 180px;
+    color: black;
+    border-left: 2px solid;
+    margin-left: 500px;
+     
+    font-weight: 900;
+    z-index: 1;
+}
+.vl3text{
+     
+        color: black;
+        
+        margin-left: 480px;
+    
+        font-weight: 900;
+        z-index: 1;
+}
+
+.vlmidsole{
+    width: 180px;
+        color: black;
+        border: 1px solid;
+        margin-left: 900px;
+        margin-top: 130px;
+    
+        font-weight: 700;
+        z-index: 3;
+}
+.vlmidsoletext{
+  
+        color: black;
+         
+        margin-left: 1100px;
+        margin-top: -16px;
+    
+        font-weight: 700;
+        z-index: 3;
+}
+
+.vloutsole{
+    width: 180px;
+        color: black;
+        border: 1px solid;
+        margin-left: 280px;
+        margin-top: 10px;
+    
+        font-weight: 700;
+        z-index: 4;
+}
+
+.vlmidOutsole{
+   
+        color: black;
+        
+        margin-left: 200px;
+        margin-top: -10px;
+    
+        font-weight: 700;
+        z-index: 4;
+}
+.theNewTextFeatures{
+    font-size: 40px;
+        font-weight: 900;
+        font-family: 'Poppins', sans-serif;
+        margin-left: 290px;
+        margin-top: 10px;
+        margin-bottom: 90px;
+}
+
+
+/* about */
+.about{
+    height: 100%;
+}
+.iconAbout{
+    font-size: 30px;
+}
+
+.theNewTextabou{
+font-size: 40px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="nav.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- sidebar -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+
+    <title>NIKE</title>
+  </head>
+  <body>
+    <nav class="navbar fixed-top">
+      <img src="nikelogo.png" class="imgLogo" />
+      <input type="checkbox" name="toggle" id="toggle" class="toggle-manu" />
+      <label for="toggle"><i class="bi bi-list"></i></label>
+      <div class="menu">
+        <ul class="list">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="#features">Features</a>
+          </li>
+          <li>
+            <a href="products.html">Products</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <br /><br /><br /><br /><br />
+
+    <style>
+      .shoehoose1:hover {
+        font-size: 50px;
+        background-color: white;
+        text-decoration: none;
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+      }
+    </style>
+    <div class="w3-sidebar w3-bar-block sidebar">
+      <a href="#nik1" id="#nik1" class="w3-bar-item w3 shoehoose1">01</a>
+      <a href="#nik2" class="w3-bar-item w3 shoehoose1">02</a>
+      <a href="#nik3" class="w3-bar-item w3 shoehoose1">03</a>
+    </div>
+
+    <main class="mainpage">
+      <section class="headShoes1" id="nik1">
+        <div class="row">
+          <div class="col" data-aos="fade-down">
+            <img src="nike1.png" class="imgnike1" alt="" />
+          </div>
+          <div class="col" data-aos="fade-left">
+            <h1 class="nameshoe1">Nike Black</h1>
+            <p class="descshoe1">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Asperiores autem consequuntur laudantium recusandae veniam
+              debitis, ut facere unde expedita eius obcaecati accusamus hic
+              quibusdam odit reiciendis doloremque atque voluptas illum?
+            </p>
+            <button class="buttonShoe1">Explore</button>
+          </div>
+        </div>
+      </section>
+
+      <br /><br /><br /><br />
+      <section class="headShoes1" id="nik2">
+        <div class="row">
+          <div class="col" data-aos="fade-down">
+            <img src="nik222.png" class="imgnike1" alt="" />
+          </div>
+          <div class="col" data-aos="fade-left">
+            <h1 class="nameshoe1">Nike Blue</h1>
+            <p class="descshoe1">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Asperiores autem consequuntur laudantium recusandae veniam
+              debitis, ut facere unde expedita eius obcaecati accusamus hic
+              quibusdam odit reiciendis doloremque atque voluptas illum?
+            </p>
+            <button class="buttonShoe1">Explore</button>
+          </div>
+        </div>
+      </section>
+      <br /><br /><br /><br />
+      <section class="headShoes1" id="nik3">
+        <div class="row">
+          <div class="col" data-aos="fade-down">
+            <img src="nike3.png" class="imgnike1" alt="" />
+          </div>
+          <div class="col" data-aos="fade-left">
+            <h1 class="nameshoe1">Nike Pink</h1>
+            <p class="descshoe1">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Asperiores autem consequuntur laudantium recusandae veniam
+              debitis, ut facere unde expedita eius obcaecati accusamus hic
+              quibusdam odit reiciendis doloremque atque voluptas illum?
+            </p>
+            <button class="buttonShoe1">Explore</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        $("#nik1").click(function () {
+          $("#nik1").css("background-color", "gray");
+        });
+      });
+    </script>
+  </body>
+</html>

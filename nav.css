@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+  .imgLogo {
+      width: 100px;
+      height: 100px;
+      margin-left: 50px;
+  }
+* {
+     box-sizing: border-box;
+     padding: 0;
+     margin: 0;
+     outline: none;
+ }
+
+ body {
+     height: 100vh;
+     background-color: rgb(255, 255, 255);
+ }
+
+ .navbar {
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: space-between;
+     background-color: rgba(255, 255, 255, 0);
+   
+   
+    
+ }
+
+ .navbar i {
+     font-family: "Courier New", Courier, monospace;
+     font-weight: 700;
+ 
+ }
+
+ .menu .list a {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 700;         
+ }
+
+ .navbar a {
+     text-decoration: none;
+ }
+
+ .navbar a:hover {
+     text-decoration: underline;
+ }
+
+ .nav-logo {
+     margin-left: 50px;
+     font-size: 30px;
+     font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    letter-spacing: 3px;
+ }
+
+ .navbar .list {
+     list-style: none;
+     display: flex;
+     gap: 95px;
+     padding: 30px;
+     margin-right: 100px;
+    letter-spacing: 1px;
+     
+     
+ }
+
+ #toggle,
+ .navbar label {
+     display: none;
+ }
+
+ @media screen and (max-width: 600px) {
+     .menu {
+         width: 100%;
+         max-height: 0;
+         overflow: hidden;
+     }
+
+     .list {
+         flex-direction: column;
+         align-items: center;
+         padding: 20px;
+     }
+
+     .navbar label {
+         display: inline-flex;
+         align-items: center;
+         cursor: pointer;
+     }
+
+     #toggle:checked~.menu {
+         max-height: 100%;
+     }
+ }
+
+
+
+ /* sidebar */
+
+ .sidebar{
+    margin-left: 50px;
+    margin-top:10px;
+    width: 5%;
+    
+    
+ }
+
+  .shoehoose1 {
+      font-weight: bold;
+      font-family: 'Poppins', sans-serif;
+      margin-top: 60px;
+      font-size: 30px;
+      text-decoration: none;
+  }
+
+ 
+
+  /* mainpage */
+
+   .mainpage {
+       margin-left: 15%;
+        
+   }
+
+
+
+ /* section 1 */
+
+ .imgnike1{
+    height: 500px;
+    width: 700px;
+transform: rotate(-30deg);
+ }
+
+.headShoes1{
+    height: 100vh;
+    padding-top: 100px;
+   
+   
+}
+
+.descshoe1{
+    width: 320px;
+    text-justify: inter-word;
+    text-align: justify;
+}
+
+
+ .nameshoe1{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 100px;
+ }
+ .buttonShoe1{
+    background-color: black;
+    color: white;
+    border-radius: 60px;
+    letter-spacing: 2px;
+    padding: 10px;
+    width: 100px;
+ }
+
+ 
+
+

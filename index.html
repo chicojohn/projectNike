@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- sidebar -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+
+    <title>NIKE</title>
+  </head>
+  <style></style>
+  <body>
+    <nav class="navbar fixed-top">
+      <img src="nikelogo.png" class="imgLogo" />
+      <input type="checkbox" name="toggle" id="toggle" class="toggle-manu" />
+      <label for="toggle"><i class="bi bi-list"></i></label>
+      <div class="menu">
+        <ul class="list">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="#features">Features</a>
+          </li>
+          <li>
+            <a href="products.html">Products</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <br /><br /><br /><br /><br />
+
+    <main class="mainpageInIndex">
+      <section class="headInmainpage1">
+        <ul
+          style="
+            display: flex;
+            gap: 1px;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            justify-content: center;
+          "
+        >
+          <li style="width: 200px" data-aos="fade-right">
+            <div class="vl"></div>
+            <h1 class="theNewTextShoes">THE NEW SHOES</h1>
+            <button class="bntinMainpage" data-aos="fade-up">
+              &nbsp;
+              <a href="#features" style="color: white; text-decoration: none"
+                >Explore</a
+              >
+              &nbsp;
+            </button>
+          </li>
+          <li data-aos="fade-up">
+            <img src="nike1.png" class="imgnike1inMain" alt="" />
+          </li>
+        </ul>
+      </section>
+
+      <br /><br /><br /><br /><br /><br /><br />
+
+      <section class="headInmainpage2" id="features">
+        <h1 class="theNewTextFeatures">Features</h1>
+        <p class="vl3text" data-aos="fade-down">Vamp</p>
+        <div class="vl3" data-aos="fade-up"></div>
+
+        <div class="container" style="text-align: center; z-index: -1">
+          <img
+            src="nike1.png"
+            data-aos="fade-up"
+            class="imgnike1inMain3"
+            alt=""
+            id="featuresshies"
+          />
+        </div>
+
+        <div class="vlwidth" data-aos="fade-right"></div>
+        <p class="vlwidthtext" data-aos="fade-left">Tongue</p>
+
+        <div class="vlmidsole" data-aos="fade-right"></div>
+        <p class="vlmidsoletext" data-aos="fade-left">Midsole</p>
+
+        <div class="vloutsole" data-aos="fade-left"></div>
+        <p class="vlmidOutsole" data-aos="fade-right">Outsole</p>
+      </section>
+
+      <br /><br /><br /><br /><br /><br />
+      <br /><br /><br /><br /><br /><br /><br />
+      <section class="about" id="about">
+        <h1 class="theNewTextabou">About</h1>
+        <ul
+          style="
+            display: flex;
+            gap: 20px;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            justify-content: center;
+            text-align: center;
+          "
+        >
+          <li><i class="bi bi-facebook iconAbout"></i></li>
+          <li><i class="bi bi-twitter iconAbout"></i></li>
+          <li>
+            <i class="bi bi-threads-fill iconAbout"></i>
+          </li>
+        </ul>
+        <p style="text-align: center">NikeShoes</p>
+      </section>
+    </main>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
